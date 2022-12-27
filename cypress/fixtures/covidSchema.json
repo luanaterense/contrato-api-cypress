@@ -1,0 +1,61 @@
+{
+  "title": "Root Schema",
+  "type": "object",
+  "required": [
+      "data"
+  ],
+  "properties": {
+      "data": {
+          "title": "The data Schema",
+          "type": "array",
+          "items": {
+              "title": "A Schema",
+              "type": "object",
+              "required": [
+                  "uid",
+                  "uf",
+                  "state",
+                  "cases",
+                  "deaths",
+                  "suspects",
+                  "refuses",
+                  "datetime"
+              ],
+              "properties": {
+                  "uid": {
+                      "title": "The uid Schema",
+                      "type": "integer"
+                  },
+                  "uf": {
+                      "title": "The uf Schema",
+                      "type": "string"
+                  },
+                  "state": {
+                      "title": "The state Schema",
+                      "type": "string"
+                  },
+                  "cases": {
+                      "title": "The cases Schema",
+                      "type": "integer"
+                  },
+                  "deaths": {
+                      "title": "The deaths Schema",
+                      "type": "integer"
+                  },
+                  "suspects": {
+                      "title": "The suspects Schema",
+                      "type": "integer"
+                  },
+                  "refuses": {
+                      "title": "The refuses Schema",
+                      "type": "integer"
+                  },
+                  "datetime": {
+                      "title": "The datetime Schema",
+                      "type": "string"
+                  }
+              }
+          }
+      }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "poc-cypress",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "npx cypress run --record --key 19f7ddc1-0f67-4856-9098-e612f40c04f9"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ajv": "^8.11.2",
+    "cypress": "^12.2.0"
+  }
+}
