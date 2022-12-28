@@ -30,4 +30,4 @@ Em nuvem, será possível verificar os gráficos e evidências neste [link](http
 
 O GitHub Actions também demonstrará a execução do teste.
 
-Parte do código é referente a aula apresentada neste [vídeo](Parte do código é referente a aula apresentada no vídeo: https://www.youtube.com/watch?v=ZBy5ijQakbU&t=744s "vídeo").
+Parte do código é referente a aula apresentada neste [vídeo](https://www.youtube.com/watch?v=ZBy5ijQakbU&t=744s "vídeo").

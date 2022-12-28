@@ -15,18 +15,17 @@ describe('Validar Schema', () => {
                 const valid = validate(response.body)
 
                 //Se ocorrer erro, mostra o erro no console
-               try {
-                console.log(validate.errors)
-                cy.log('Mensagem:', validate.errors[0].message) 
-                cy.log('Path do schema: ', validate.errors[0].schemaPath)
-                cy.get(validate.errors[0].message).should('be.empty')
+                try {
+                    console.log(validate.errors)
+                    cy.log('Mensagem:', validate.errors[0].message)
+                    cy.log('Path do schema: ', validate.errors[0].schemaPath)
+                    cy.get(validate.errors[0].message).should('be.empty')
 
-               
                     cy.writeFile(
-                        'cypress/evidencias/CT-01.json', 
+                        'cypress/evidencias/CT-01.json',
                         JSON.stringify(response.body))
                 }
-                catch (ex){
+                catch (ex) {
                     cy.log(ex)
                 }
             })
