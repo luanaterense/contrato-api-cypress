@@ -19,7 +19,7 @@ describe('Validar Schema', () => {
                     console.log(validate.errors)
                 }
                 if (valid) {
-                    cy.writeFile('cypress/evidencias/CT1.json', JSON.stringify(response.body))
+                    cy.writeFile('cypress/evidencias/CT-01.json', JSON.stringify(response.body))
                 }
             })
         })
